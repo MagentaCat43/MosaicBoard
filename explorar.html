@@ -7,32 +7,34 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>🌈 MosaicBoard</h1>
+  <div class="sidebar" id="sidebar">
+    <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
     <nav>
       <ul>
         <li><a href="index.html">Início</a></li>
         <li><a href="explorar.html" class="ativo">Explorar</a></li>
         <li><a href="meus-projetos.html">Meus Projetos</a></li>
         <li><a href="criar.html">Criar</a></li>
-        <li><a href="perfil.html">Perfil</a></li>
+        <li><a href="perfil.html">Meu Perfil</a></li>
       </ul>
     </nav>
-  </header>
+  </div>
 
   <main>
-    <h2>Explorar Conteúdo</h2>
-    <p>Aqui você pode ver páginas públicas de outros usuários. No modo desconectado, apenas leitura.</p>
-    <div class="cards">
-      <div class="card">Projeto Criativo</div>
-      <div class="card">Diário de Estudos</div>
-      <div class="card">Lista de Tarefas</div>
-    </div>
-  </main>
+    <header>
+      <h1>MosaicBoard</h1>
+    </header>
 
-  <footer>
-    <p>Feito com 💜 por mim</p>
-  </footer>
+    <section>
+      <h2>Explorar Conteúdo</h2>
+      <p>Aqui você pode ver páginas públicas de outros usuários. No modo desconectado, apenas leitura.</p>
+      <div class="cards">
+        <div class="card">Projeto Criativo</div>
+        <div class="card">Diário de Estudos</div>
+        <div class="card">Lista de Tarefas</div>
+      </div>
+    </section>
+  </main>
 
   <script src="js/script.js"></script>
 </body>

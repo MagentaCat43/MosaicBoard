@@ -5,7 +5,7 @@ document.querySelectorAll("nav a").forEach(link => {
   }
 });
 
-// Mostrar / esconder sidebar
+// Mostrar / esconder sidebar estilo Gemini
 function toggleSidebar() {
   const sidebar = document.getElementById('sidebar');
   sidebar.classList.toggle('collapsed');

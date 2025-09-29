@@ -7,41 +7,44 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="sidebar" id="sidebar">
-    <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="ativo">Início</a></li>
-        <li><a href="explorar.html">Explorar</a></li>
-        <li><a href="meus-projetos.html">Meus Projetos</a></li>
-        <li><a href="criar.html">Criar</a></li>
-        <li><a href="perfil.html">Meu Perfil</a></li>
-      </ul>
-    </nav>
+  <div class="container">
+    <!-- Menu lateral -->
+    <aside class="sidebar" id="sidebar">
+      <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="ativo">Início</a></li>
+          <li><a href="explorar.html">Explorar</a></li>
+          <li><a href="meus-projetos.html">Meus Projetos</a></li>
+          <li><a href="criar.html">Criar</a></li>
+          <li><a href="perfil.html">Meu Perfil</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+      <header>
+        <h1>MosaicBoard</h1>
+      </header>
+
+      <section class="intro">
+        <h2>Bem-vindo!</h2>
+        <p>Aqui você pode criar páginas, usar templates e explorar ideias da comunidade.</p>
+        <button onclick="alert('Futuramente vai criar uma nova página!')">Criar nova página</button>
+      </section>
+
+      <section class="templates">
+        <h2>Templates sugeridos</h2>
+        <div class="cards">
+          <div class="card">Lista de tarefas</div>
+          <div class="card">Diário de estudos</div>
+          <div class="card">Projeto criativo</div>
+        </div>
+      </section>
+    </main>
   </div>
-
-  <main>
-    <header>
-      <h1>MosaicBoard</h1>
-    </header>
-
-    <section class="intro">
-      <h2>Bem-vindo!</h2>
-      <p>Aqui você pode criar páginas, usar templates e explorar ideias da comunidade.</p>
-      <button onclick="alert('Futuramente vai criar uma nova página!')">Criar nova página</button>
-    </section>
-
-    <section class="templates">
-      <h2>Templates sugeridos</h2>
-      <div class="cards">
-        <div class="card">Lista de tarefas</div>
-        <div class="card">Diário de estudos</div>
-        <div class="card">Projeto criativo</div>
-      </div>
-    </section>
-  </main>
 
   <script src="js/script.js"></script>
 </body>
 </html>
-

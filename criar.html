@@ -7,33 +7,36 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>🌈 MosaicBoard</h1>
+  <div class="sidebar" id="sidebar">
+    <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
     <nav>
       <ul>
         <li><a href="index.html">Início</a></li>
         <li><a href="explorar.html">Explorar</a></li>
         <li><a href="meus-projetos.html">Meus Projetos</a></li>
         <li><a href="criar.html" class="ativo">Criar</a></li>
-        <li><a href="perfil.html">Perfil</a></li>
+        <li><a href="perfil.html">Meu Perfil</a></li>
       </ul>
     </nav>
-  </header>
+  </div>
 
   <main>
-    <h2>Criar Nova Página</h2>
-    <p>Escolha um template ou comece do zero. Faça login para salvar suas páginas.</p>
-    <div class="cards">
-      <div class="card">Template Lista de Tarefas</div>
-      <div class="card">Template Diário</div>
-      <div class="card">Página em branco</div>
-    </div>
-  </main>
+    <header>
+      <h1>MosaicBoard</h1>
+    </header>
 
-  <footer>
-    <p>Feito com 💜 por mim</p>
-  </footer>
+    <section>
+      <h2>Criar Nova Página</h2>
+      <p>Escolha um template ou comece do zero. Faça login para salvar suas páginas.</p>
+      <div class="cards">
+        <div class="card">Template Lista de Tarefas</div>
+        <div class="card">Template Diário</div>
+        <div class="card">Página em branco</div>
+      </div>
+    </section>
+  </main>
 
   <script src="js/script.js"></script>
 </body>
 </html>
+
